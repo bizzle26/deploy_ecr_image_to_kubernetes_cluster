@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tech365
-        image: 924338258393.dkr.ecr.us-east-1.amazonaws.com/asg
+        image: 637423496042.dkr.ecr.us-east-1.amazonaws.com/zle
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
