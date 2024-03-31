@@ -10,7 +10,8 @@ pipeline{
     sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=bizzlesonar -Dsonar.organization=bizzlesonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN'
 }
 
-		
+	}
+        
 
     }	
         stage('Build'){
